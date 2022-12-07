@@ -6,7 +6,6 @@ import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
 
-@Service
 public class HashMapUserPersistence implements UserStorageProvider {
 
     private HashMap<String, UserAccount> idDb = new HashMap<>();
